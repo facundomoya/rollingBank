@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+a h2 {
+  font-family: "Merriweather", serif;
+  margin-top: 9px;
+}
+
+footer {
+  padding: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.color-footer {
+  color: grey;
+}
+
+.tomato-color:hover {
+  color: tomato;
+}
+
+.img-financial {
+  width: 200px;
+}
+
+.navbar-brand {
+  position: absolute;
+  margin-left: 75px;
+}
+
+.offcanvas-header {
+  margin-left: auto;
+}
+
+.offcanvas {
+  height: 270px;
+  border-radius: 30px;
+}
+
+.cards {
+  margin: auto;
+  padding: 40px 15px;
+}
+
+.card {
+  height: 210px;
+  margin: 5px 0px;
+}
+
+.title {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 60px;
+}
+
+.subtitle {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+.title-flex {
+  display: flex;
+}
+
+.icon-footer-margin {
+  margin-left: 10px;
+}
+
+/* media queries */
+@media all and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+
+  footer div {
+    margin-bottom: 15px;
+  }
+
+  footer section div {
+    margin: 10px 0px;
+  }
+
+  .navbar-brand {
+    margin-left: 65px;
+  }
+
+  .carousel-img {
+    height: 145px;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 29px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .images-badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-badge {
+    width: 110px;
+    margin: 0px 2px;
+  }
+
+  .images-footer {
+    width: 135px;
+  }
+
+  .img-financial {
+    width: 135px;
+    margin: 15px 0px;
+  }
+
+  .icon-footer-margin {
+    margin-left: 0px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: 220px;
+  }
+
+  .iphone-image {
+    height: 700px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .cards {
+    padding: 40px 0px;
+  }
+
+  .icons-footer {
+    display: flex;
+  }
+
+  .images-footer {
+    width: 140px;
+  }
+
+  .img-financial {
+    width: 140px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1399px) {
+  .icons-size {
+    margin-top: 50px;
+  }
+
+  .img-financial {
+    width: 180px;
+  }
+
+  .images-footer {
+    width: 180px;
+  }
+
+  .icons-footer {
+    display: flex;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .max-size {
+    margin: 30px 0px;
+  }
+
+  .icons-size {
+    margin-top: 35px;
+  }
+
+  .subtext {
+    font-size: 22px;
+  }
+
+  .icons-footer {
+    display: flex;
+  }
+
+  .section-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
