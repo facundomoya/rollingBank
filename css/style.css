@@ -11,7 +11,7 @@ a h2 {
 }
 
 footer {
-  padding: 80px;
+  padding: 60px 80px;
 }
 
 footer a {
@@ -82,11 +82,15 @@ footer a {
   }
 
   footer div {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   footer section div {
-    margin: 10px 0px;
+    margin: 15px 0px;
+  }
+
+  .fa-brands {
+    font-size: 25px;
   }
 
   .navbar-brand {
@@ -123,16 +127,20 @@ footer a {
   }
 
   .images-footer {
-    width: 135px;
+    width: 125px;
   }
 
   .img-financial {
-    width: 135px;
+    width: 125px;
     margin: 15px 0px;
   }
 
   .icon-footer-margin {
     margin-left: 0px;
+  }
+
+  .center-safety {
+    text-align: center;
   }
 }
 
@@ -163,6 +171,10 @@ footer a {
 
   .img-financial {
     width: 140px;
+  }
+
+  .fa-brands {
+    font-size: 25px;
   }
 }
 
