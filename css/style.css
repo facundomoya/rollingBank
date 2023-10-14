@@ -88,6 +88,11 @@ footer a {
   font-size: 14px;
 }
 
+.error404 {
+  display: flex;
+  justify-content: center;
+}
+
 /* media queries */
 @media all and (max-width: 767px) {
   footer {
