@@ -75,6 +75,24 @@ footer a {
   margin-left: 10px;
 }
 
+.size-safety {
+  width: 30rem;
+}
+
+.safety-article {
+  margin: 35px auto 0px auto;
+  padding: 0px 150px;
+}
+
+.text-size {
+  font-size: 14px;
+}
+
+.error404 {
+  display: flex;
+  justify-content: center;
+}
+
 /* media queries */
 @media all and (max-width: 767px) {
   footer {
@@ -142,6 +160,43 @@ footer a {
   .center-safety {
     text-align: center;
   }
+
+  .safety-article {
+    padding: 0px 0px;
+  }
+
+  .size-safety {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .margin-img {
+    margin: 125px 0px;
+  }
+
+  #order-img-one {
+    order: 1;
+  }
+
+  #order-text-one {
+    order: 0;
+  }
+
+  #order-img-two {
+    order: 3;
+  }
+
+  #order-text-two {
+    order: 2;
+  }
+
+  #order-img-three {
+    order: 5;
+  }
+
+  #order-text-three {
+    order: 4;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -176,9 +231,48 @@ footer a {
   .fa-brands {
     font-size: 25px;
   }
+
+  .safety-article {
+    margin: 35px auto 0px auto;
+    padding: 0px 0px;
+  }
+
+  .size-safety {
+    width: 100%;
+  }
+
+  .text-size {
+    font-size: 14px;
+  }
+
+  #order-img-one {
+    order: 3;
+  }
+
+  #order-text-one {
+    order: 0;
+  }
+
+  #order-img-two {
+    order: 4;
+  }
+
+  #order-text-two {
+    order: 1;
+  }
+
+  #order-img-three {
+    order: 5;
+    margin: auto;
+  }
+
+  #order-text-three {
+    order: 4;
+    margin-top: 15px;
+  }
 }
 
-@media all and (min-width: 992px) and (max-width: 1399px) {
+@media all and (min-width: 992px) and (max-width: 1199px) {
   .icons-size {
     margin-top: 50px;
   }
@@ -193,6 +287,54 @@ footer a {
 
   .icons-footer {
     display: flex;
+  }
+
+  .safety-article {
+    margin: 35px auto 0px auto;
+    padding: 0px 0px;
+  }
+
+  .size-safety {
+    width: 100%;
+  }
+
+  .text-size {
+    font-size: 13px;
+  }
+
+  #order-img-two {
+    margin: 12px 0px;
+  }
+
+  #order-text-two {
+    margin: 12px 0px;
+  }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  .icons-footer {
+    display: flex;
+  }
+
+  .safety-article {
+    margin: 35px auto 0px auto;
+    padding: 0px 0px;
+  }
+
+  .size-safety {
+    width: 100%;
+  }
+
+  .text-size {
+    font-size: 16px;
+  }
+
+  #order-img-two {
+    margin: 15px 0px;
+  }
+
+  #order-text-two {
+    margin: 15px 0px;
   }
 }
 
@@ -217,5 +359,13 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #order-img-two {
+    margin: 15px 0px;
+  }
+
+  #order-text-two {
+    margin: 15px 0px;
   }
 }
