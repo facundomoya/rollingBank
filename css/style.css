@@ -41,7 +41,7 @@ footer a {
 }
 
 .offcanvas {
-  height: 270px;
+  height: 220px;
   border-radius: 30px;
 }
 
@@ -91,6 +91,12 @@ footer a {
 .error404 {
   display: flex;
   justify-content: center;
+}
+
+.center-list {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: justify;
 }
 
 /* media queries */
@@ -197,9 +203,31 @@ footer a {
   #order-text-three {
     order: 4;
   }
+
+  .center-list {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: start;
+  }
+
+  .pos-zero {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+
   .card {
     width: 220px;
   }
