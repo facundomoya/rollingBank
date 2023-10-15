@@ -6,7 +6,7 @@
     <meta name="description" content="bank project using Bootstrap" />
     <meta
       name="keywords"
-      content="rolling bank, bank project, bootstrap, prices, bank prices"
+      content="rolling bank, bank project, bootstrap, contact us"
     />
     <meta name="author" content="Facundo Moya" />
     <link
@@ -20,7 +20,7 @@
       src="https://kit.fontawesome.com/f5a0711485.js"
       crossorigin="anonymous"
     ></script>
-    <title>Prices</title>
+    <title>Contact us</title>
   </head>
   <body>
     <header>
@@ -71,81 +71,74 @@
     <main>
       <section>
         <article class="bg-primary">
-          <h1 class="title text-center p-5">A bank without costs for you</h1>
+          <h1 class="title text-center p-5">Contact us</h1>
         </article>
-        <article class="container py-4">
-          <ul class="list-group">
-            <li class="list-group-item d-flex justify-content-between">
-              <i class="fa-regular fa-2x fa-user text-primary"></i>
-              <div class="center-list mx-5">
-                <h6>Account opening</h6>
-                <p>
-                  At our bank, account opening is hassle-free. Enjoy a seamless
-                  process, personalized services, and start your financial
-                  journey with confidence today.
-                </p>
+        <article class="row container contact-us my-4">
+          <div class="col-sm-12 col-md-6">
+            <h5>Rolling Bank is with you</h5>
+            <p>
+              Fill out the form to get in touch with Rolling Bank for all your
+              banking needs. Our dedicated team is here to assist you with
+              account inquiries, loan applications, and any other financial
+              assistance. We look forward to hearing from you!
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370980829!2d-65.2097767236088!3d-26.836696090033705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1sen!2sar!4v1697332434764!5m2!1sen!2sar"
+              height="330"
+              class="w-100"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-sm-12 col-md-6 margin-contact">
+            <h5>Send us a message</h5>
+            <form class="bg-light p-3">
+              <div class="mb-3">
+                <label for="inputName" class="form-label"
+                  >Name <span class="text-danger">*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="John Smith"
+                  id="inputName"
+                />
               </div>
-              <div class="pos-zero">
-                <p class="bg-primary text-white rounded p-1">$0</p>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label"
+                  >Email address <span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="example@gmail.com"
+                  id="inputEmail"
+                />
               </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <i class="fa-solid fa-2x fa-screwdriver-wrench text-warning"></i>
-              <div class="center-list mx-5">
-                <h6>Maintenance</h6>
-                <p>
-                  Our bank ensures smooth account maintenance. Enjoy online
-                  access, timely updates, and dedicated support to keep your
-                  finances on track with ease.
-                </p>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Write your question</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
               </div>
-              <div class="pos-zero">
-                <p class="bg-primary text-white rounded p-1">$0</p>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Subscribe to our news</label
+                >
               </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <i class="fa-solid fa-2x fa-money-check-dollar text-danger"></i>
-              <div class="center-list mx-5">
-                <h6>Transfers</h6>
-                <p>
-                  Easily transfer funds globally with our bank. Secure,
-                  efficient, and cost-effective, our transfer services ensure
-                  your money reaches its destination safely.
-                </p>
-              </div>
-              <div class="pos-zero">
-                <p class="bg-primary text-white rounded p-1">$0</p>
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <i class="fa-solid fa-2x fa-money-bill-wave text-success"></i>
-              <div class="center-list mx-5">
-                <h6>Services pay</h6>
-                <p>
-                  At our bank, our suite of pay services covers all your
-                  financial needs, from bill payments to secure online
-                  transactions, providing convenience and peace.
-                </p>
-              </div>
-              <div class="pos-zero">
-                <p class="bg-primary text-white rounded p-1">$0</p>
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <i class="fa-solid fa-2x fa-credit-card text-secondary"></i>
-              <div class="center-list mx-5">
-                <h6>Debit</h6>
-                <p>
-                  Experience the flexibility and convenience of our debit card.
-                  Access your funds anytime, anywhere, with secure transactions
-                  and the freedom to manage your finances effortlessly.
-                </p>
-              </div>
-              <div class="pos-zero">
-                <p class="bg-primary text-white rounded p-1">$0</p>
-              </div>
-            </li>
-          </ul>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
         </article>
       </section>
     </main>
