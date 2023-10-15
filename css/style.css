@@ -99,6 +99,11 @@ footer a {
   text-align: justify;
 }
 
+.contact-us {
+  display: flex;
+  margin: auto;
+}
+
 /* media queries */
 @media all and (max-width: 767px) {
   footer {
@@ -215,6 +220,10 @@ footer a {
     right: 0;
     margin-right: 5px;
   }
+
+  .margin-contact {
+    margin-top: 15px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -226,6 +235,10 @@ footer a {
 
   footer {
     margin-top: auto;
+  }
+
+  iframe {
+    height: 255px;
   }
 
   .card {
@@ -301,6 +314,10 @@ footer a {
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  iframe {
+    height: 303px;
+  }
+
   .icons-size {
     margin-top: 50px;
   }
@@ -340,6 +357,10 @@ footer a {
 }
 
 @media all and (min-width: 1200px) and (max-width: 1399px) {
+  iframe {
+    height: 303px;
+  }
+
   .icons-footer {
     display: flex;
   }
