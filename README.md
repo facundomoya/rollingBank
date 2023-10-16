@@ -12,7 +12,7 @@ In this project, we use two branches. Here is an overview of them:
 
 **master:** The `master` branch is our main branch. We use pull requests to bring what was developed in the development branch. In certain cases we worked directly from this branch. 
 
-**development:** The `development` branch is our secondary branch. Here we carried out a large part of the project and through the creation of pull requests the code was merged to the master branch. Of course the merge code was made as reviewed by me before merging since this is an individual project and has no reviewers
+**development:** The `development` branch is our secondary branch. Here we carried out a large part of the project and through the creation of pull requests the code was merged to the master branch. Of course the merge code was made as reviewed by me before merging since this is an individual project and has no reviewers.
 
 ## Project Status
 
