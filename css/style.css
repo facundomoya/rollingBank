@@ -75,31 +75,31 @@ footer a {
   margin-left: 10px;
 }
 
-.size-safety {
+.security-img-size {
   width: 30rem;
 }
 
-.safety-article {
+.security-article {
   margin: 35px auto 0px auto;
   padding: 0px 150px;
 }
 
-.text-size {
+.security-text-size {
   font-size: 14px;
 }
 
-.error404 {
+.error404-flex {
   display: flex;
   justify-content: center;
 }
 
-.center-list {
+.center-prices-list {
   margin: 0 auto;
   max-width: 800px;
   text-align: justify;
 }
 
-.contact-us {
+.contact-flex {
   display: flex;
   margin: auto;
 }
@@ -168,21 +168,37 @@ footer a {
     margin-left: 0px;
   }
 
-  .center-safety {
+  .center-text-index {
     text-align: center;
   }
 
-  .safety-article {
+  .security-article {
     padding: 0px 0px;
   }
 
-  .size-safety {
+  .security-img-size {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .margin-img {
-    margin: 125px 0px;
+  .center-prices-list {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: start;
+  }
+
+  .zero-price-position {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+  }
+
+  .margin-contact {
+    margin-top: 15px;
+  }
+
+  .error404-img {
+    width: 290px;
   }
 
   #order-img-one {
@@ -207,26 +223,6 @@ footer a {
 
   #order-text-three {
     order: 4;
-  }
-
-  .center-list {
-    margin: 0 auto;
-    max-width: 800px;
-    text-align: start;
-  }
-
-  .pos-zero {
-    position: absolute;
-    right: 0;
-    margin-right: 5px;
-  }
-
-  .margin-contact {
-    margin-top: 15px;
-  }
-
-  .error404-img {
-    width: 290px;
   }
 }
 
@@ -277,16 +273,16 @@ footer a {
     font-size: 25px;
   }
 
-  .safety-article {
+  .security-article {
     margin: 35px auto 0px auto;
     padding: 0px 0px;
   }
 
-  .size-safety {
+  .security-img-size {
     width: 100%;
   }
 
-  .text-size {
+  .security-text-size {
     font-size: 14px;
   }
 
@@ -338,16 +334,16 @@ footer a {
     display: flex;
   }
 
-  .safety-article {
+  .security-article {
     margin: 35px auto 0px auto;
     padding: 0px 0px;
   }
 
-  .size-safety {
+  .security-img-size {
     width: 100%;
   }
 
-  .text-size {
+  .security-text-size {
     font-size: 13px;
   }
 
@@ -369,16 +365,16 @@ footer a {
     display: flex;
   }
 
-  .safety-article {
+  .security-article {
     margin: 35px auto 0px auto;
     padding: 0px 0px;
   }
 
-  .size-safety {
+  .security-img-size {
     width: 100%;
   }
 
-  .text-size {
+  .security-text-size {
     font-size: 16px;
   }
 
@@ -392,7 +388,7 @@ footer a {
 }
 
 @media all and (min-width: 1400px) {
-  .max-size {
+  .margin-max-size {
     margin: 30px 0px;
   }
 
@@ -400,7 +396,7 @@ footer a {
     margin-top: 35px;
   }
 
-  .subtext {
+  .subtext-size {
     font-size: 22px;
   }
 
